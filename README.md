@@ -60,6 +60,7 @@ source ./env/bin/activate
 ## Gestor de paquetes: pip
 
 - Instalar un paquete nuevo: `pip install <nombre-del-paquete>`
+- Instala los paquetes escritos en un archivo txt `pip install -r <requirements.txt (nombre donde están los paquetes)>`
 - Listar los paquetes instalados: `pip list`
 - Listar paquetes en formato de dependencias: `pip freeze`
 - Para guardarlo en el archivo de dependencias: `pip freeze > requirements.txt`
