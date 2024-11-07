@@ -11,6 +11,7 @@
 - `cd /<carpeta_nombre>/<carpeta_nombre>/`: ir directo a tal directorio (escribir en orden).
 - `clear`: limpia pantalla.
 - `mkdir <nombre_carpeta_nueva>`: crea un directorio.
+- `cat <ruta>`: muestra lo que hay dentro del fichero en la ruta que le pasamos.
 
 
 ## Referencia de comandos git
@@ -18,6 +19,8 @@
 - `git clone <url-del-repositorio>`: hace una copia del repositorio remoto en la máquina local.
 - `git clone <url-del-repositorio> <destino>`: al igual que el anterio, pero permite crear la copia
   en una carpeta con el nombre que especificamos en `<destino>`
+
+
 
 - `git log`: permite explorar el histórico de commits.
 - `git log --oneline`: simplifica la salida del log poniendo solamente el hash y el mensaje del commit.
