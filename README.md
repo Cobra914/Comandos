@@ -12,6 +12,7 @@
 - `clear`: limpia pantalla.
 - `mkdir <nombre_carpeta_nueva>`: crea un directorio.
 - `cat <ruta>`: muestra lo que hay dentro del fichero en la ruta que le pasamos.
+- `<donde> | grep <cadena>`: encuentra una cadena específica en un archivo.
 
 
 ## Referencia de comandos git
@@ -77,3 +78,9 @@ deactivate
 ## Cómo eliminar un entorno virtual
 
 Basta con eliminar el directorio.
+
+## Variables de entorno
+
+- Linux / Mac: `export FLASK_APP=hola` `export FLASK_DEBUG=True`
+
+- Windows: `set FLASK_APP=hola` `set FLASK_DEBUG=True`
