@@ -13,6 +13,9 @@
 - `mkdir <nombre_carpeta_nueva>`: crea un directorio.
 - `cat <ruta>`: muestra lo que hay dentro del fichero en la ruta que le pasamos.
 - `<donde> | grep <cadena>`: encuentra una cadena específica en un archivo.
+- `sudo <etc>`: Hacer algo con permisos de administrador.
+- `rm <nombre_de_lo_que_queremos_eliminar>`: Eliminar algo.
+
 
 
 ## Referencia de comandos git
@@ -78,6 +81,9 @@ deactivate
 ## Cómo eliminar un entorno virtual
 
 Basta con eliminar el directorio.
+
+`rm -rf env/`: Elimina el directorio env (entorno virtual creado con anterioridad) y todos sus archivos. Posicionarse
+en el directorio donde esta creado env.
 
 ## Variables de entorno
 
